@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+body {
+    margin: 0;
+}
+
+#TopImg {
+    width: 50px;
+    display: inline-block;
+    vertical-align: middle;
+    position: absolute;
+    top: 8px;
+    left: 8px;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+}
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+.LinkAppearance {
+    cursor: pointer;
+    text-decoration: underline;
+    font-weight: 280;
+    display: block;
+    margin: 0;
+}
+
+.OfficialSite {
+    color: white;
+    background-image: url(https://i.ibb.co/F0gtkKF/Gradient-Blues-gila.png);
+    background-repeat: repeat-y;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-size: 12px;
+}
+
+.UpperLineOFF {
+    padding: 8px;
+}
+
+.WetNet {
+    padding-left: 60px;
+}
+
+#ReasoningOFF {
+    font-weight: 400;
+    display: block;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    padding: 8px;
+}
+
+#ReasoningOFF{
+    display: none;
+}
+
+/* WHAT FOLLOWS IS CODE DIRECTLY FROM W3 SCHOOLS.COM */
+
+#navbar {
+    overflow: hidden;
+    background-color: #121214;
+    font-size: 15px;
+  }
+  
+  /* Navbar links */
+  #navbar a {
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 19px;
+    text-decoration: none;
+  }
+  
+  /* Page content */
+  .content {
+    padding: 16px;
+  }
+  
+  /* The sticky class is added to the navbar with JS when it reaches its scroll position */
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+  .sticky + .content {
+    padding-top: 60px;
+  }
+
+  /* END OF STOLE S̶T̶O̶L̶E̶N̶    USED CODE */ 
