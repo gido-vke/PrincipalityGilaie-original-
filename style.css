@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&display=swap');
 body {
     margin: 0;
 }
@@ -115,16 +116,46 @@ p {
     padding-left: 40px;
 }
 
-.Lop{
+.Lop {
     padding-left: 100px;
     padding-top: 5px;
 }
 
-.BannerImageContainer{
+.BannerImageContainer {
     color: white;
-    width: 100%;
+    width: 80%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-image: url(bannerafbeelding.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-#BannerImage{
-    width: 100%;
+h1 {
+    margin: 0;
+    font-weight: 700;
+    font-size: 36px;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+}
+
+h2 {
+    margin-bottom: 10px;
+    font-weight: 400;
+    font-size: 22px;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+}
+
+.CovidWarning {
+    background-color: DARKred;
+    text-align: center;
+    color: white;
+    padding: 25px;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.Soobtitlays {
+    font-family: 'Atkinson Hyperlegible', sans-serif;
 }
