@@ -148,14 +148,51 @@ h2 {
 }
 
 .CovidWarning {
-    background-color: DARKred;
+    background-color: #ffc800;
     text-align: center;
-    color: white;
+    color: black;
     padding: 25px;
     font-weight: 700;
     font-size: 22px;
+    border-left: solid #730800 10px;
+
 }
 
 .Soobtitlays {
     font-family: 'Atkinson Hyperlegible', sans-serif;
+}
+
+.LinedUnder{
+    width: auto;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+/*CODE VAN W3 BEGINT*/
+.column {
+    float: left;
+    width:29.4%;
+    padding: 10px;
+    margin: 10px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
+
+.HeadingNaam{
+    font-size: 22px;
+    color: #171376;
+    font-weight: 650;
+    
 }
