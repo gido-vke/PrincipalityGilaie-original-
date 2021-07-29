@@ -4,59 +4,93 @@ body {
     margin: 0;
 }
 
-.Soobtitlays{
-    -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
-    -moz-animation: fadein 2s; /* Firefox < 16 */
-     -ms-animation: fadein 2s; /* Internet Explorer */
-      -o-animation: fadein 2s; /* Opera < 12.1 */
-         animation: fadein 2s;
+.Soobtitlays {
+    -webkit-animation: fadein 2s;
+    /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 2s;
+    /* Firefox < 16 */
+    -ms-animation: fadein 2s;
+    /* Internet Explorer */
+    -o-animation: fadein 2s;
+    /* Opera < 12.1 */
+    animation: fadein 2s;
 }
 
-h1{
-    -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
-    -moz-animation: fadein 2s; /* Firefox < 16 */
-     -ms-animation: fadein 2s; /* Internet Explorer */
-      -o-animation: fadein 2s; /* Opera < 12.1 */
-         animation: fadein 2s;
+h1 {
+    -webkit-animation: fadein 2s;
+    /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 2s;
+    /* Firefox < 16 */
+    -ms-animation: fadein 2s;
+    /* Internet Explorer */
+    -o-animation: fadein 2s;
+    /* Opera < 12.1 */
+    animation: fadein 2s;
 }
 
-h2{
-    -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
-    -moz-animation: fadein 2s; /* Firefox < 16 */
-     -ms-animation: fadein 2s; /* Internet Explorer */
-      -o-animation: fadein 2s; /* Opera < 12.1 */
-         animation: fadein 2s;
+h2 {
+    -webkit-animation: fadein 2s;
+    /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 2s;
+    /* Firefox < 16 */
+    -ms-animation: fadein 2s;
+    /* Internet Explorer */
+    -o-animation: fadein 2s;
+    /* Opera < 12.1 */
+    animation: fadein 2s;
 }
-
-
 
 @keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }
 
 /* Firefox < 16 */
+
 @-moz-keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }
 
 /* Safari, Chrome and Opera > 12.1 */
+
 @-webkit-keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }
 
 /* Internet Explorer */
+
 @-ms-keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }
 
 /* Opera < 12.1 */
+
 @-o-keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }
 
 #TopImg {
@@ -172,7 +206,7 @@ p {
 }
 
 .Lop {
-    padding-left: 100px;
+    padding-left: 2%;
     padding-top: 5px;
 }
 
@@ -268,6 +302,10 @@ h2 {
     padding-bottom: 10px;
 }
 
+.HeadingSoep {
+    font-size: 15px;
+}
+
 .HeadingNaam a {
     text-decoration: underline;
     cursor: pointer;
@@ -288,9 +326,100 @@ h2 {
     }
 }
 
-.Ulla{
+.Ulla {
     width: 100%;
-    background-color: white ;
+    background-color: white;
     margin-top: 600px;
-    color:white;
+    color: white;
+}
+
+.Lop {
+    padding-left: 100px;
+    padding-top: 5px;
+}
+
+#ere {
+    height: 50px;
+    padding-left: 40px;
+}
+
+#otr {
+    height: 50px;
+    padding-left: 5px;
+}
+
+.Lip {
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+@media screen and (max-width: 870px) {
+    .verticalBar {
+        display: none;
+    }
+    .horizontalList {
+        display: block;
+    }
+}
+
+@media screen and (min-width: 870px) {
+    .verticalBar {
+        display: block;
+    }
+    .horizontalList {
+        display: none;
+    }
+}
+
+.Traffy {
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 19px;
+    text-decoration: none;
+}
+
+.HamburgerMenu {
+    position: absolute;
+    top: 68px;
+    right: 20px;
+}
+
+.horizontalList {
+    background-color: #121214;
+    padding: 10px;
+}
+
+.DeNavigatorKLEIN li {
+    margin: 10px;
+}
+
+.DeNavigatorKLEIN {
+    list-style-type: none;
+    color: white;
+    text-align: center;
+    padding: 0;
+    text-decoration: none;
+    display: none;
+    padding-bottom: 0px;
+}
+
+.DeNavigatorKLEIN a {
+    list-style-type: none;
+    color: white;
+    text-align: center;
+    padding: 0;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 380px) {
+    #otr {
+        height: 35px;
+    }
+    .HamburgerMenu {
+        position: absolute;
+        top: 60px;
+        right: 20px;
+    }
 }

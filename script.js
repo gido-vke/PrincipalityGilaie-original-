@@ -11,6 +11,18 @@ function toggle_visibility() {
   return;
 }
 
+function grubbel() {
+  var er = document.getElementById('LIJSTloc');
+  if (er.style.display == 'block') {
+    er.style.display = 'none';
+  }
+  else {
+    er.style.display = 'block';
+  }
+  console.log('clicked');
+  return;
+}
+
 //W3 CODE STICKY NAVBAR
 // When the user scrolls the page, execute myFunction
 window.onscroll = function () { myFunction() };
