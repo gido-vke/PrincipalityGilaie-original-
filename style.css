@@ -253,23 +253,27 @@ h2 {
     width: auto;
     margin-left: 15%;
     margin-right: 15%;
+    height: 90vh;
 }
 
 /*CODE VAN W3 BEGINT*/
 
 .column {
-    float: left;
-    width: 29.4%;
+    float: left !important;
     padding: 14px;
     margin: 6px;
     background-color: #EDF8FF;
-    min-height: 110px;
+    min-height: 100px;
+    padding-right: 14px !important;
 }
 
 /* Clear floats after the columns */
 
 .row {
     width: 100%;
+    column-count: 3;
+    column-width: 300px;
+    column-gap: 0;
 }
 
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
@@ -303,6 +307,7 @@ h2 {
 
 .HeadingSoep {
     font-size: 15px;
+    word-break: break-word;
 }
 
 .HeadingNaam a {
@@ -325,12 +330,7 @@ h2 {
     }
 }
 
-.Ulla {
-    width: 100%;
-    background-color: white;
-    margin-top: 600px;
-    color: white;
-}
+/* top | right | bottom | left */
 
 .Lop {
     padding-left: 100px;
@@ -452,4 +452,30 @@ h2 {
     columns: 3;
     column-width: 270px;
     column-gap: 60px;
+}
+
+.vakkenContainer {
+    overflow: hidden;
+    width: 85%;
+    margin-left: 7.5%;
+    margin-right: 7.5%;
+    table-layout: auto;
+    margin-bottom: 50px;
+    margin-top: 10px;
+}
+
+
+@media screen and (max-width: 450px) {
+    h1 {
+        margin: 0;
+        font-weight: 600;
+        font-size: 23px;
+        font-family: 'Atkinson Hyperlegible', sans-serif;
+    }
+    h2 {
+        margin-bottom: 10px;
+        font-weight: 350;
+        font-size: 13px;
+        font-family: 'Atkinson Hyperlegible', sans-serif;
+    }
 }
