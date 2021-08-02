@@ -247,6 +247,7 @@ h2 {
 
 .Soobtitlays {
     font-family: 'Atkinson Hyperlegible', sans-serif;
+    max-width: 400px;
 }
 
 .LinedUnder {
@@ -423,6 +424,7 @@ h2 {
     }
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
 .banner2container {
     background-image: url('FugloyTheSecond.jpg');
     padding-top: 100px;
@@ -432,10 +434,9 @@ h2 {
     font-weight: 700;
     padding-right: 20px;
     padding-left: 20px;
-    font-family: 'Roboto', sans-serif;
     text-align: center;
     background-size: cover;
-    text-shadow: 1px 1px darkblue;
+    font-family: 'Roboto', sans-serif !important;
 }
 
 .SaraWonsild {
@@ -464,7 +465,7 @@ h2 {
     margin-top: 10px;
 }
 
-.hutsakeeErmee{
+.hutsakeeErmee {
     margin: 50px;
 }
 
@@ -481,4 +482,194 @@ h2 {
         font-size: 13px;
         font-family: 'Atkinson Hyperlegible', sans-serif;
     }
+}
+
+.Bars {
+    width: 100%;
+    height: 10vw;
+}
+
+.OrangeBar {
+    background-color: #5EB6E4;
+}
+
+.BlueBar {
+    background-color: #F2BE1A;
+}
+
+.Apen {
+    max-width: 12%;
+    position: relative;
+    right: -45%;
+    top: -36%;
+}
+
+/*STOLEN CODE BOOTSTRAPPERDEPAP*/
+
+.footer-clean {
+    padding: 50px 0;
+    background-color: #f8f8ff;
+    color: #4b4c4d;
+}
+
+.footer-clean h3 {
+    margin-top: 0;
+    margin-bottom: 12px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.footer-clean ul {
+    padding: 0;
+    list-style: none;
+    line-height: 1.6;
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+.footer-clean ul a {
+    color: inherit;
+    text-decoration: none;
+    opacity: 0.8;
+}
+
+.footer-clean ul a:hover {
+    opacity: 1;
+}
+
+.footer-clean .item.social {
+    text-align: right;
+}
+
+@media (max-width:767px) {
+    .footer-clean .item {
+        text-align: center;
+        padding-bottom: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .footer-clean .item.social {
+        text-align: center;
+    }
+}
+
+.footer-clean .item.social>a {
+    font-size: 24px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+    margin-left: 10px;
+    margin-top: 22px;
+    color: inherit;
+    opacity: 0.75;
+}
+
+.footer-clean .item.social>a:hover {
+    opacity: 0.9;
+}
+
+@media (max-width:991px) {
+    .footer-clean .item.social>a {
+        margin-top: 40px;
+    }
+}
+
+@media (max-width:767px) {
+    .footer-clean .item.social>a {
+        margin-top: 10px;
+    }
+}
+
+.footer-clean .copyright {
+    margin-top: 14px;
+    margin-bottom: 0;
+    font-size: 13px;
+    opacity: 0.6;
+}
+
+.col-md-3 {
+    margin-left: 20%
+}
+
+@media (max-width:767px) {
+    .col-md-3 {
+        margin-left: 0;
+    }
+}
+
+.FOTOFOOTERS {
+    width: 60%;
+}
+
+.hintin:hover {
+    font-weight: bold;
+}
+
+.InhoudExample {
+    margin-left: auto;
+    margin-right: auto;
+    width: min(60%);
+    background-color: transparent;
+    line-height: 1.35;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+@media (max-width: 900px) {
+    .InhoudExample {
+        margin-left: auto;
+        margin-right: auto;
+        width: min(95%);
+        background-color: transparent;
+        line-height: 1.35;
+        text-align: justify;
+        text-justify: inter-word;
+    }
+}
+
+.BannerForTopOfSite {
+    background-image: url('ExtensiveBannerism.jpg');
+    padding-top: 80px;
+    padding-bottom: 80px;
+    color: white;
+    font-size: 210%;
+    font-weight: 700;
+    padding-right: 20px;
+    padding-left: 20px;
+    text-align: center;
+    background-size: cover;
+    font-family: 'Roboto', sans-serif !important;
+}
+
+.HeadingNaam a:after{
+    font-size: 19px;
+    color: #171376;
+    font-weight: 650;
+    padding-bottom: 10px;
+}
+
+.HeadingNaam a {
+    font-size: 19px;
+    color: #171376;
+    font-weight: 650;
+    padding-bottom: 10px;
+}
+
+.HeadingNaam a:active {
+    font-size: 19px;
+    color: #171376;
+    font-weight: 650;
+    padding-bottom: 10px;
+}
+
+.HeadingNaam a:visited {
+    font-size: 19px;
+    color: #171376;
+    font-weight: 650;
+    padding-bottom: 10px;
 }
