@@ -23,6 +23,9 @@ function grubbel() {
   return;
 }
 
+
+
+
 //W3 CODE STICKY NAVBAR
 // When the user scrolls the page, execute myFunction
 window.onscroll = function () { myFunction() };
@@ -33,3 +36,14 @@ var navbar = document.getElementById("navbar");
 // Get the offset position of the navbar
 var sticky = navbar.offsetTop;
 
+const ScrollFixTED;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+    ScrollFixTED.style.display = 'none';
+  } else {
+    navbar.classList.remove("sticky");
+    ScrollFixTED.style.display = 'block';
+  }
+}
