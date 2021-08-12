@@ -805,7 +805,9 @@
 /*voor de vorm*/
 /*voor de vorm*/
 /*voor de vorm*/
-/*voor de vorm*/
+{
+    box-sizing: content-box;
+}
 /*voor de vorm*/
 /*voor de vorm*/
 /*voor de vorm*/
