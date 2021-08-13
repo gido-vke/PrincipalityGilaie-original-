@@ -829,10 +829,47 @@ div.desc {
     .responsive {
         width: 100%;
     }
+    .InhoudExample {
+        margin-left: auto;
+        margin-right: auto;
+        width: min(95%);
+    }
+    .PanamaKanaal {
+        margin-left: auto;
+        margin-right: auto;
+        min-width: 95% !important;
+    }
 }
 
 .clearfix:after {
     content: "";
     display: table;
     clear: both;
+}
+
+.PanamaKanaal {
+    margin-left: auto;
+    margin-right: auto;
+    width: min(60%);
+    background-color: transparent;
+    line-height: 1.35;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.tepel {
+    background-color: #EDF8FF;
+    border: 0;
+}
+
+.ROOIEBIET {
+    padding-left: 10px;
+    padding-right: 20px;
+    font-weight: bold;
+}
+
+.WeFunct {
+    max-height: auto;
+    width: 100%;
+    margin-top: 25px;
 }
