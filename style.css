@@ -760,6 +760,10 @@ h5 {
     text-justify: normal;
     justify-content: normal;
     word-break: break-word;
+    line-height: normal;
+    text-align: start;
+    letter-spacing: normal;
+    font-size: 15px;
 }
 
 .KNOPBURGERCIT {
@@ -799,7 +803,7 @@ div.gallery img {
 }
 
 div.desc {
-    padding: 15px;
+    padding: 10px;
     text-align: center;
 }
 
@@ -808,7 +812,7 @@ div.desc {
 }
 
 .responsive {
-    padding: 0 6px;
+    padding: 0;
     float: left;
     width: 24.99999%;
     padding-bottom: 40px;
