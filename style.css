@@ -873,3 +873,73 @@ div.desc {
     width: 100%;
     margin-top: 25px;
 }
+
+
+/*FROM W3 HEROIMAGE*/
+
+/* The hero image */
+.hero-image {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: linear-gradient(to right,rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)), url("vlagwapper.jpg");
+
+  /* Set a specific height */
+  height: 200px;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* Place text in the middle of the image */
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.ArmenEnBenen{
+    margin: 0;
+    font-weight: 700;
+    font-size: 36px;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+}
+
+/*END W3 HEROIMAGE*/
+
+.VierenDelen{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: 0;
+    border-radius: 5px;
+    background: #1d49aa;
+    margin-top: 1rem;
+    color: #fff;
+    padding: 8px 16px;
+    font-size: 16px;
+    min-width: 100px;
+    text-align: center;
+}   
+
+.banner69container {
+  background-image: linear-gradient(to right,rgba(44, 130, 201, 0.2), rgba(44, 130, 201, 0.4)), url("FugloyTheSecond.jpg");
+    padding-top: 100px;
+    padding-bottom: 100px;
+    color: white;
+    font-size: 190%;
+    font-weight: 700;
+    padding-right: 20px;
+    padding-left: 20px;
+    text-align: center;
+    background-size: cover;
+    font-family: 'Roboto', sans-serif !important;
+}
+
+.jodel{
+    width: 100%;
+}
