@@ -808,7 +808,7 @@ div.desc {
 }
 
 * {
-    box-sizing: content-box !important;
+    box-sizing: content-box;
 }
 
 .responsive {
@@ -874,35 +874,34 @@ div.desc {
     margin-top: 25px;
 }
 
-
 /*FROM W3 HEROIMAGE*/
 
 /* The hero image */
+
 .hero-image {
-  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-  background-image: linear-gradient(to right,rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)), url("vlagwapper.jpg");
-
-  /* Set a specific height */
-  height: 200px;
-
-  /* Position and center the image to scale nicely on all screens */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
+    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)), url("vlagwapper.jpg");
+    /* Set a specific height */
+    height: 200px;
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
 }
 
 /* Place text in the middle of the image */
+
 .hero-text {
-  text-align: center;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: white;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
 }
 
-.ArmenEnBenen{
+.ArmenEnBenen {
     margin: 0;
     font-weight: 700;
     font-size: 36px;
@@ -911,7 +910,7 @@ div.desc {
 
 /*END W3 HEROIMAGE*/
 
-.VierenDelen{
+.VierenDelen {
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
@@ -924,10 +923,10 @@ div.desc {
     font-size: 16px;
     min-width: 100px;
     text-align: center;
-}   
+}
 
 .banner69container {
-  background-image: linear-gradient(to right,rgba(44, 130, 201, 0.2), rgba(44, 130, 201, 0.4)), url("FugloyTheSecond.jpg");
+    background-image: linear-gradient(to right, rgba(44, 130, 201, 0.2), rgba(44, 130, 201, 0.4)), url("FugloyTheSecond.jpg");
     padding-top: 100px;
     padding-bottom: 100px;
     color: white;
@@ -940,6 +939,152 @@ div.desc {
     font-family: 'Roboto', sans-serif !important;
 }
 
-.jodel{
+.jodel {
     width: 100%;
 }
+
+.InhoudMinisterExample {
+    margin-left: auto;
+    margin-right: auto;
+    width: min(60%);
+}
+
+.minister-grid-container {
+    box-sizing: border-box;
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: "grid1 grid2 grid3 grid4" "grid5 grid6 grid7 grid8" "grid9 grid10 grid11 grid12";
+    grid-gap: 0.8rem;
+    content: "";
+    clear: both;
+}
+
+.MinisterCard {
+    background-color: #EDF8FF;
+    text-align: center;
+    position: relative;
+    padding: 15px;
+}
+
+.MinisterFunction {
+    font-weight: bolder;
+    padding-bottom: 10px;
+}
+
+.ExcellentPeople {
+    font-size: 0.7rem;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.NameOfMinister {
+    font-size: 1rem;
+    padding-top: 4px;
+}
+
+.MinisterQuote {
+    font-style: italic;
+    padding-top: 20px;
+    padding-bottom: 0;
+    font-size: 0.92rem;
+}
+
+.MinisterPhoto {
+    padding: 17px;
+    padding-top: 9px !important;
+    width: 140px;
+    aspect-ratio: 1 / 1;
+}
+
+@media only screen and (max-width: 1200px) {
+    .minister-grid-container {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-template-areas: "grid1 grid2 grid3" " grid4 grid5 grid6" "grid7 grid8 grid9" " grid10 grid11 grid12";
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .minister-grid-container {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-areas: "grid1 grid2" "grid3 grid4" "grid5 grid6" "grid7 grid8" "grid9 grid10" "grid11 grid12";
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .minister-grid-container {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-areas: "grid1" "grid2" "grid3" "grid4" "grid5" "grid6" "grid7" "grid8" "grid9" "grid10" "grid11";
+    }
+}
+
+/*definities grid areas ministers pagina*/
+
+#GRD1 {
+    grid-area: grid1;
+}
+
+#GRD2 {
+    grid-area: grid2;
+}
+
+#GRD3 {
+    grid-area: grid3;
+}
+
+#GRD4 {
+    grid-area: grid4;
+}
+
+#GRD5 {
+    grid-area: grid5;
+}
+
+#GRD6 {
+    grid-area: grid6;
+}
+
+#GRD7 {
+    grid-area: grid7;
+}
+
+#GRD8 {
+    grid-area: grid8;
+}
+
+#GRD9 {
+    grid-area: grid9;
+}
+
+#GRD10 {
+    grid-area: grid10;
+}
+
+#GRD11 {
+    grid-area: grid11;
+}
+
+#GRD12 {
+    grid-area: grid12;
+    display: none;
+    height: 0;
+}
+
+/*einde*/
+
+details>summary {
+    list-style: none;
+}
+
+details>summary::marker {
+    display: none;
+}
+
+.LINEARTIME{
+    border-bottom: black solid 3px;
+}
+ 
