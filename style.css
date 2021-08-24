@@ -445,8 +445,6 @@ h2 {
     padding-right: 15%;
     background-color: #111111;
     color: white;
-    text-align: justify;
-    text-justify: inter-word;
 }
 
 .columnsthe2 {
@@ -616,8 +614,6 @@ h2 {
     width: min(60%);
     background-color: transparent;
     line-height: 1.35;
-    text-align: justify;
-    text-justify: inter-word;
 }
 
 @media (max-width: 900px) {
@@ -627,8 +623,6 @@ h2 {
         width: min(95%);
         background-color: transparent;
         line-height: 1.35;
-        text-align: justify;
-        text-justify: inter-word;
     }
 }
 
@@ -853,8 +847,6 @@ div.desc {
     width: min(60%);
     background-color: transparent;
     line-height: 1.35;
-    text-align: justify;
-    text-justify: inter-word;
 }
 
 .tepel {
@@ -1084,7 +1076,98 @@ details>summary::marker {
     display: none;
 }
 
-.LINEARTIME{
+.LINEARTIME {
     border-bottom: black solid 3px;
 }
- 
+
+.gridcontainer_news {
+    box-sizing: border-box;
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: "inhoud inhoud aside" "inhoud inhoud aside";
+    grid-gap: 1.3rem;
+    content: "";
+    clear: both;
+}
+
+.NewsInhoud {
+    grid-area: inhoud;
+    overflow: hidden;
+    /* NEW */
+    min-width: 0;
+    /* NEW; needed for Firefox */
+    height: fit-content;
+}
+
+.NewsSidebar {
+    grid-area: aside;
+    overflow: hidden;
+    /* NEW */
+    min-width: 0;
+    /* NEW; needed for Firefox */
+    height: fit-content;
+}
+
+.newsUnder {
+    -webkit-text-size-adjust: 100%;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: normal;
+    line-height: 1.4;
+    font-size: .71em;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .05em;
+    cursor: default !important;
+    box-sizing: border-box;
+    opacity: 1;
+    text-decoration: none;
+    transition: color .2s ease-in-out;
+    color: #999;
+    margin: 10px 0;
+}
+
+.newsTitle {
+    margin: 0;
+    font-weight: 600;
+    font-size: 33px;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    line-height: 1;
+    padding-bottom: 10px;
+}
+
+@media only screen and (max-width: 900px) {
+    .gridcontainer_news {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto 1fr;
+        grid-template-areas: "aside" "inhoud";
+    }
+}
+
+.newsImage {
+    width: 100%;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Gelasio:ital@1&display=swap');
+
+.NWquote {
+    padding: 15px 0;
+    font-family: 'Gelasio', serif;
+    font-style: italic ;
+    font-size: 1.1rem;
+}
+
+.newsquotename{
+text-align: right;
+font-style: normal ;
+font-size: 0.9rem;
+padding-top: 10px;
+}
+
+.IMGCREDITNWS{
+    color:gray;
+    font-size	: 0.8rem;
+}
