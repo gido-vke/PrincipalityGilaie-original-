@@ -780,7 +780,6 @@ button:hover {
 
 button:focus {
     outline: none;
-    box-shadow: 0 0 0 4px #cbd6ee;
 }
 
 div.gallery {
@@ -1152,22 +1151,94 @@ details>summary::marker {
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Gelasio:ital@1&display=swap');
-
 .NWquote {
     padding: 15px 0;
     font-family: 'Gelasio', serif;
-    font-style: italic ;
+    font-style: italic;
     font-size: 1.1rem;
 }
 
-.newsquotename{
-text-align: right;
-font-style: normal ;
-font-size: 0.9rem;
-padding-top: 10px;
+.newsquotename {
+    text-align: right;
+    font-style: normal;
+    font-size: 0.9rem;
+    padding-top: 10px;
 }
 
-.IMGCREDITNWS{
-    color:gray;
-    font-size	: 0.8rem;
+.IMGCREDITNWS {
+    color: gray;
+    font-size: 0.8rem;
+}
+
+.filterDiv {
+    width: 100%;
+    height: auto;
+    text-align: left;
+    margin: 8px 0;
+    display: none;
+    font-family: 'Roboto', sans-serif;
+    padding: 14px;
+    background-color: #EDF8FF;
+    min-height: 100px;
+}
+
+/* The "show" class is added to the filtered elements */
+
+.show {
+    display: block;
+}
+
+/* Style the buttons */
+
+.btn {
+    border: none;
+    outline: none;
+    padding: 12px 16px;
+    background-color: #f1f1f1;
+    cursor: pointer;
+}
+
+/* Add a light grey background on mouse-over */
+
+.btn:hover {
+    background-color: #ddd;
+}
+
+/* Add a dark background to the active button */
+
+.btn.active {
+    background-color: #666;
+    color: white;
+}
+
+.LawContainerBener {
+    height: 100%;
+}
+
+.LawFirstLine {
+    text-transform: uppercase;
+    font-size: 19px;
+    color: #171376;
+    font-weight: 650;
+}
+
+.LawSecondLine {
+    font-size: 15px;
+    color: #171376;
+    font-weight: 650;
+    padding-bottom: 10px;
+}
+
+.LawEndLine {
+    color: black;
+    font-size: 14px;
+    padding-top: 10px;
+}
+
+.LawsLines:hover {
+    text-decoration: underline #171376;
+}
+
+a.PublicationContainer{
+    text-decoration: none;
 }
