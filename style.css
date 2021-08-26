@@ -215,7 +215,7 @@ p {
     padding-right: 10%;
     padding-top: 40px;
     padding-bottom: 40px;
-    background-image: url(bannerafbeelding.jpg);
+    background-image: url(./images/bannerafbeelding.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -426,7 +426,7 @@ h2 {
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
 .banner2container {
-    background-image: url('FugloyTheSecond.jpg');
+    background-image: url('./images/FugloyTheSecond.jpg');
     padding-top: 100px;
     padding-bottom: 100px;
     color: white;
@@ -627,7 +627,7 @@ h2 {
 }
 
 .BannerForTopOfSite {
-    background-image: url('ExtensiveBannerism.jpg');
+    background-image: url('./images/ExtensiveBannerism.jpg');
     padding-top: 80px;
     padding-bottom: 80px;
     color: white;
@@ -871,7 +871,7 @@ div.desc {
 
 .hero-image {
     /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)), url("vlagwapper.jpg");
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)), url("./images/vlagwapper.jpg");
     /* Set a specific height */
     height: 200px;
     /* Position and center the image to scale nicely on all screens */
@@ -917,7 +917,7 @@ div.desc {
 }
 
 .banner69container {
-    background-image: linear-gradient(to right, rgba(44, 130, 201, 0.2), rgba(44, 130, 201, 0.4)), url("FugloyTheSecond.jpg");
+    background-image: linear-gradient(to right, rgba(44, 130, 201, 0.2), rgba(44, 130, 201, 0.4)), url("./images/FugloyTheSecond.jpg");
     padding-top: 100px;
     padding-bottom: 100px;
     color: white;
@@ -1171,15 +1171,15 @@ details>summary::marker {
 }
 
 .filterDiv {
-    width: 100%;
+    width: 90%;
+    margin: 8px 6px;
+    padding: 14px;
+    min-height: 100px;
     height: auto;
     text-align: left;
-    margin: 8px 6px;
     display: none;
     font-family: 'Roboto', sans-serif;
-    padding: 14px;
     background-color: #EDF8FF;
-    min-height: 100px;
 }
 
 /* The "show" class is added to the filtered elements */
@@ -1241,8 +1241,4 @@ details>summary::marker {
 
 a.PublicationContainer {
     text-decoration: none;
-}
-
-a.PublicationContainer {
-    padding-right: 10px;
 }
