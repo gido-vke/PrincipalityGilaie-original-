@@ -1174,7 +1174,7 @@ details>summary::marker {
     width: 100%;
     height: auto;
     text-align: left;
-    margin: 8px 0;
+    margin: 8px 6px;
     display: none;
     font-family: 'Roboto', sans-serif;
     padding: 14px;
@@ -1239,6 +1239,10 @@ details>summary::marker {
     text-decoration: underline #171376;
 }
 
-a.PublicationContainer{
+a.PublicationContainer {
     text-decoration: none;
+}
+
+a.PublicationContainer {
+    padding-right: 10px;
 }
