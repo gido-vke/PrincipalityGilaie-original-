@@ -1246,3 +1246,24 @@ a.PublicationContainer {
 .StructureImage{
     width: 100%;
 }
+
+.recognise420{
+    font-size: 15px;
+    column-count: auto;
+    column-width: 100px;
+    margin-left: 40px;
+}
+
+.PontesAn{
+    padding-left: 40px;
+}
+
+.background-colorB{
+    background-color: #EDF8FF;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-size: 17px;
+    padding:  30px ;
+    margin: 10px 0;
+}
