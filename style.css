@@ -1242,3 +1242,7 @@ details>summary::marker {
 a.PublicationContainer {
     text-decoration: none;
 }
+
+.StructureImage{
+    width: 100%;
+}
