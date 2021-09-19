@@ -1,3 +1,12 @@
+//cookie banner 
+
+
+function Koekje() {
+  document.getElementById("cookieConsent").style.display = "none";
+}
+
+
+
 var btn2 = document.getElementById('btn2');
 function toggle_visibility() {
   var e = document.getElementById('ReasoningOFF');
@@ -100,3 +109,10 @@ for (var i = 0; i < btns.length; i++) {
     this.className += " active";
   });
 }
+
+
+
+
+
+
+
